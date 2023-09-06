@@ -4,6 +4,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+* > * a{
+    text-decoration: none;
+}
+
 .ftop{
     background-color: #F4F6F6;
     text-align: center;
@@ -39,15 +43,16 @@ ul li {
 }
 
 
-.btn a{
+.login-btn a{
     text-decoration: none;
     color: #c00;
     border: 1px solid #e2e2e2;
     border-radius: 5px;
     padding: 5px;
+    font-size: 13px;
 }
 
-.btn a:hover{
+.login-btn a:hover{
     background-color: black;
     color: white;
     transition: all ease-in-out 0.5s;
