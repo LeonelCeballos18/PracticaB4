@@ -40,6 +40,7 @@ ul li {
 
 .middle{
     background-color: #fff;
+    overflow: hidden;
 }
 
 
@@ -71,6 +72,41 @@ ul li {
     background-color: transparent;
     border: 1px solid #e2e2e2;
     color: black;
+}
+
+/* Navbar */
+
+
+
+/* News */
+
+.red-text{
+    color: #c00;
+}
+
+.news >* img{
+    width: 100%;
+}
+
+.news >* .tittle{
+    font-weight: bolder;
+}
+
+.news >* .autor{
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.main .tittle{
+    font-size: 35px;
+}
+
+.nm .tittle{
+    font-size: 20px;
+}
+
+.nm{
+    background-color: #F3F3F3;
 }
 
 @media (max-width: 991px){
