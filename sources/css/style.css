@@ -76,7 +76,20 @@ ul li {
 
 /* Navbar */
 
+.main-navbar{
+    width: 100%;
+    background-color: #c00;
+    display: flex;
+}
 
+.items li{
+    display: inline-block;
+}
+
+.main-navbar .items ul li a{
+    color: white;
+    text-decoration: none;
+}
 
 /* News */
 
