@@ -77,6 +77,12 @@ ul li {
     transition: all ease-in-out 0.5s;
 }
 
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .left li{
     display: inline-block;
     font-size: 12px;
