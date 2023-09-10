@@ -63,6 +63,10 @@ ul li {
     width: 99%;
 }
 
+.login-btn{
+    padding-left: 8px;
+}
+
 .login-btn a{
     text-decoration: none;
     color: #c00;
@@ -110,6 +114,15 @@ ul li {
     font-size: 13px !important;
 }
 
+.right .btn-flag{
+    color: #c00;
+}
+
+.right .btn-flag:hover{
+    background-color: black;
+    color: white;
+}
+
 .btn-group button{
     background-color: transparent;
     border: 1px solid #e2e2e2;
@@ -131,8 +144,19 @@ form{
     display: flex;
 }
 
+.main-navbar>*{
+    font-weight: bold;
+}
+
 .items li{
     display: inline-block;
+    padding: 13px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.items li:hover{
+    background-color: #293a4b;
 }
 
 .main-navbar .items ul li a{
