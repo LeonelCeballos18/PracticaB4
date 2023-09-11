@@ -184,7 +184,7 @@ form{
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 110vh;
+    height: 100%;
     padding-top: 20px;
 }
 
@@ -239,5 +239,15 @@ form{
 
     .middle{
         display: none;
+    }
+
+    .bottom-navbar{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .news{
+        display: inline-block;
     }
 }
