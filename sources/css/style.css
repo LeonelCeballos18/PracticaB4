@@ -204,7 +204,7 @@ form{
 .red-text{
     color: #c00;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .news >* img{
@@ -220,11 +220,24 @@ form{
     font-size: 12px;
 }
 
+.news2 >* .autor{
+    font-weight: bolder;
+    font-size: 12px;
+}
+
 .main .title{
     font-size: 33px;
 }
 
 .nm .title{
+    font-size: 20px;
+}
+
+.news2 .gr{
+    background-color: #F3F3F3;
+}
+
+.news2 .title{
     font-size: 20px;
 }
 
