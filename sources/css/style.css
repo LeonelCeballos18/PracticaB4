@@ -195,7 +195,7 @@ form{
     z-index: 1;
 }
 
-.items .futbol:hover .mex{
+.items ul .futbol a:hover + .mex{
     display: block;
 }
 
