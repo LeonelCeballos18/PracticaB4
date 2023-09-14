@@ -151,11 +151,11 @@ form{
     display: inline-block;
     padding: 10px;
     font-size: 18px;
-    margin-left: 15px;
+    margin-left: 2.1rem;
 }
 
 .items li:hover{
-    background-color: #293a4b;
+    background-color: #141d25f7;
 }
 
 .main-navbar .items ul li a{
@@ -176,9 +176,21 @@ form{
     float: right;
 }
 
+/* Responsive navbar */
+
+.responsive-nav img{
+    background-color: white;
+    margin-left: 20px;
+    -webkit-transform: skew(20deg);
+     -moz-transform: skew(20deg);
+     -ms-transform: skew(20deg);
+     -o-transform: skew(20deg);
+     transform: skew(-10deg);
+}
+
 /*submain navbar*/
 .secciones{
-    display: none;
+    
 }
 
 .motor{
@@ -191,6 +203,57 @@ form{
 
 .otrosDeportes{
     display: none;
+}
+
+.sub{
+    width: 95%;
+    background-color: #141d25f7;
+    margin-left: 2.1rem;
+    height: auto;
+}
+
+.sub li a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.sub li a:hover{
+    color: #c00;
+    transition: all ease-in-out 0.3s;
+}
+
+.sub li a:after{
+    content: "";
+    position: absolute;
+    background-color: #c00;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    transition: left .8s;
+}
+
+.sub li a:hover:after {
+    left: 0;
+}
+
+.main-title{
+    color: #c2c2c2;
+    font-weight: bold;
+    opacity: .5;
+    font-size: 1.1rem;
+    padding: 8px 0px 8px 0px;
+}
+
+.sub-title{
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.item-text{
+    color: #c2c2c2;
+    font-size: .8rem;
+    font-weight: bold;
 }
 
 /* bottom navbar */
