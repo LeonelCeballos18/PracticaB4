@@ -147,20 +147,24 @@ form{
     font-weight: bold;
 }
 
-.items li{
+.items .futbol, .motorsb, .boxeo, .nfl, .od{
     display: inline-block;
     padding: 10px;
     font-size: 18px;
     margin-left: 2.1rem;
 }
 
-.items li:hover{
+.items .futbol:hover, .items .motorsb:hover, .items .boxeo:hover, .items .nfl:hover, .items .od:hover{
     background-color: #141d25f7;
 }
 
 .main-navbar .items ul li a{
     color: white;
     text-decoration: none;
+}
+
+.main-navbar .items ul .containerdrop{
+    display: inline-block;
 }
 
 .navlg > *{
@@ -195,7 +199,7 @@ form{
     z-index: 1;
 }
 
-.items ul .futbol a:hover + .mex{
+.items:hover .mex{
     display: block;
 }
 
@@ -204,6 +208,7 @@ form{
     position: absolute;
     z-index: 1;
 }
+
 
 .nflsc{
     display: none;
@@ -226,6 +231,7 @@ form{
 }
 
 .sub li a{
+    display: inline-block;
     list-style: none;
     text-decoration: none;
 }
@@ -236,7 +242,7 @@ form{
 }
 
 .main-title{
-    color: #c2c2c2;
+    color: #c2c2c2 !important;
     font-weight: bold;
     opacity: .5;
     font-size: 1.1rem;
@@ -244,13 +250,13 @@ form{
 }
 
 .sub-title{
-    color: white;
+    color: white !important;
     font-weight: bold;
     font-size: 1.1rem;
 }
 
 .item-text{
-    color: #c2c2c2;
+    color: #c2c2c2 !important;
     font-size: .8rem;
     font-weight: bold;
 }
