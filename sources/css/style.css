@@ -199,7 +199,7 @@ form{
     z-index: 1;
 }
 
-.items:hover .mex{
+.items .futbol:hover .mex{
     display: block;
 }
 
@@ -209,11 +209,18 @@ form{
     z-index: 1;
 }
 
+.items .motorsb:hover .motor{
+    display: block;
+}
 
 .nflsc{
     display: none;
     position: absolute;
     z-index: 1;
+}
+
+.items .nfl:hover .nflsc{
+    display: block;
 }
 
 .otrosDeportes{
@@ -222,10 +229,15 @@ form{
     z-index: 1;
 }
 
+.items .od:hover .otrosDeportes{
+    display: block;
+}
+
 .sub{
     width: 95%;
     background-color: #141d25f7;
-    margin-left: 2.1rem;
+    left: 32.7px;
+    margin-top: 10px;
     height: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -237,7 +249,7 @@ form{
 }
 
 .sub li a:hover{
-    color: #c00;
+    color: #c00 !important;
     transition: all ease-in-out 0.3s;
 }
 
@@ -246,13 +258,14 @@ form{
     font-weight: bold;
     opacity: .5;
     font-size: 1.1rem;
-    padding: 8px 0px 8px 0px;
+    padding: 0px 0px 8px 0px;
 }
 
 .sub-title{
     color: white !important;
     font-weight: bold;
     font-size: 1.1rem;
+    padding-bottom: 5px;
 }
 
 .item-text{
@@ -283,6 +296,10 @@ form{
     grid-template-rows: 1fr 1fr;
     height: 100%;
     padding-top: 20px;
+}
+
+.news * div{
+    display: none;
 }
 
 .main{
